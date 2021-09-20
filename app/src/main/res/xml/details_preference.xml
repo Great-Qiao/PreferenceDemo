@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="using_categories_in_root_screen"
+    android:summary="Using Preference Categories"
+    android:title="Categories" >
+
+    <PreferenceCategory
+        android:key="fish_details"
+        android:summary="Preferences related to fish"
+        android:title="鱼"
+        android:defaultValue="false">
+        <CheckBoxPreference
+            android:key="tangcu_pref"
+            android:summary="酸甜"
+            android:title="糖醋鱼" />
+        <CheckBoxPreference
+            android:key="kaoyu_pref"
+            android:summary="香辣"
+            android:title="烤鱼" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
